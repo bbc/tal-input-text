@@ -4,7 +4,7 @@
   "description": "TAL Input Text Widget",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -r ./test/config.js --reporter dot ./test/unit/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/bbcrd/tal-input-text/issues"
   },
-  "homepage": "https://github.com/bbcrd/tal-input-text"
+  "homepage": "https://github.com/bbcrd/tal-input-text",
+  "devDependencies": {
+    "chai": "^1.9.0",
+    "sinon": "^1.8.2",
+    "mocha": "^1.17.1"
+  }
 }
