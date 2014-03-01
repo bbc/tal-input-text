@@ -20,5 +20,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "tal": "https://github.com/fmtvp/tal/archive/1.4.8.zip"
+  }
 }
