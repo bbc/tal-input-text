@@ -14,11 +14,11 @@ require.def('bbcrd/widgets/input-text',
       init: function(text, options) {
         this._options = options || {};
         this._initialText = (text === undefined ? "" : text);
-        this._super(options.id, text);
+        this._super(this._options.id, text);
 
         this.addClass('input-text');
 
-        if (options.placeholder) {
+        if (this._options.placeholder) {
           this.addClass('placeholder');
           this.addClass('placeholder-active');
         }
