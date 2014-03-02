@@ -12,19 +12,18 @@ requirejs.config({
   baseUrl: '/base/src',
 
   paths: {
-    'bbcrd': '/base/src',
-    'antie': '/base/bower_components/tal/static/script'
+    'bbcrd': '/base/src'
   },
 
   shim: {
   },
 
-  /*map: {
+  map: {
     '*': {
-      'antie/widgets/label': 'mock-widget',
-      'antie/events/event': 'mock-event'
+      'antie/widgets/label': 'mocks/widget',
+      'antie/events/event': 'mocks/event'
     }
-  },*/
+  },
 
   // ask Require.js to load these files (all our tests)
   deps: tests,

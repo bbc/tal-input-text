@@ -1,4 +1,4 @@
-define(['lib/mockapplication', 'bbcrd/widgets/input-text'], function(App, InputText){
+define(['bbcrd/widgets/input-text'], function(InputText){
   describe('widgets/input-text', function(){
     var sandbox;
 
