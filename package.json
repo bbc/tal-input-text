@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bbcrd/tal-input-text.git"
+    "url": "git://github.com/bbc/tal-input-text.git"
   },
   "keywords": [
     "tal",
@@ -18,9 +18,9 @@
   "author": "Thomas Parisot (https://oncletom.io)",
   "license": "Apache-2",
   "bugs": {
-    "url": "https://github.com/bbcrd/tal-input-text/issues"
+    "url": "https://github.com/bbc/tal-input-text/issues"
   },
-  "homepage": "https://github.com/bbcrd/tal-input-text",
+  "homepage": "https://github.com/bbc/tal-input-text",
   "devDependencies": {
     "chai": "^1.9.0",
     "sinon": "^1.8.2",
